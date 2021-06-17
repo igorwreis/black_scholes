@@ -1,4 +1,3 @@
-black_scholes
 Precificação de Opções pelo modelo Black and Scholes, a partir de informações divulgadas pela B3 e taxa de juros desejada pelo usuário.
 
     -->> Calcula preços de opções do mercado brasileiro pelo método Black and Scholes,
