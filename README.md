@@ -1,4 +1,4 @@
-# black_scholes
+black_scholes
 Precificação de Opções pelo modelo Black and Scholes, a partir de informações divulgadas pela B3 e taxa de juros desejada pelo usuário.
 
     -->> Calcula preços de opções do mercado brasileiro pelo método Black and Scholes,
@@ -12,7 +12,9 @@ Precificação de Opções pelo modelo Black and Scholes, a partir de informaç�
         t (float): Opcional - Taxa livre de risco a ser considerada nos cálculos,
         deve ser informada em formato decimal. Exemplo: para uma taxa de 5%, informar 0.05
         Manter nulo ou 0 para utilizar a taxa DI atualizada informada pela B3
-        
-# IMPORTANTE: REALIZAR A INSTALACAO DAS BIBLIOTECAS ABAIXO NO AMBIENTE A SER UTILIZADO
-# pip install scipy
-# pip install selenium
+
+IMPORTANTE: REALIZAR A INSTALACAO DAS BIBLIOTECAS ABAIXO NO AMBIENTE A SER UTILIZADO
+pip install scipy
+pip install selenium
+
+Erros são comuns devido a instabilidades no portal da B3.
